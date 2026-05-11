@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #030712;
+  color: #f9fafb;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.font-inter {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111827;
+}
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
+}
+
+/* Document editor styles */
+[contenteditable="true"]:focus {
+  outline: none;
+}
+
+[contenteditable="true"] h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+[contenteditable="true"] h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
+[contenteditable="true"] h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+[contenteditable="true"] p {
+  margin-bottom: 10px;
+}
+[contenteditable="true"] table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 16px;
+}
+[contenteditable="true"] td,
+[contenteditable="true"] th {
+  border: 1px solid #e5e7eb;
+  padding: 6px 10px;
+}
+[contenteditable="true"] ul,
+[contenteditable="true"] ol {
+  padding-left: 24px;
+  margin-bottom: 10px;
+}
+[contenteditable="true"] li {
+  margin-bottom: 4px;
+}
+[contenteditable="true"] blockquote {
+  border-left: 3px solid #3b82f6;
+  padding-left: 12px;
+  color: #4b5563;
+  font-style: italic;
+  margin: 12px 0;
+}
+
+/* Range slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 4px;
+  border-radius: 2px;
+  background: #374151;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #3b82f6;
+  cursor: pointer;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+/* Color input */
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: 1px solid #374151;
+  border-radius: 6px;
+}
+
+/* Prose styles for white document */
+.prose-doc {
+  color: #111827;
+}

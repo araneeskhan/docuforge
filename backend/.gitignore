@@ -1,0 +1,11 @@
+# Environments
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Storage
+data/
