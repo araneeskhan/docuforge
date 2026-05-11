@@ -1,6 +1,6 @@
-# DocuForge Pro
+# DocuForge
 
-DocuForge Pro is an advanced, fully offline, AI-independent professional document formatting engine. It takes raw text or badly formatted `.doc`/`.docx` files and instantly standardizes them into publication-ready formats using deterministic, rigorous Python rules.
+DocuForge is an advanced, fully offline, AI-independent professional document formatting engine. It takes raw text or badly formatted `.doc`/`.docx` files and instantly standardizes them into publication-ready formats using deterministic, rigorous Python rules.
 
 ## Features
 - **API-Free Architecture**: Operates 100% locally with zero external API dependencies (no GPT-4 costs, no balance errors).
